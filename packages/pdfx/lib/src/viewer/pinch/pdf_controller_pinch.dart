@@ -256,10 +256,6 @@ class PdfControllerPinch extends TransformationController
     _state = null;
   }
 
-  @override
-  void dispose() {
-    super.dispose();
-  }
 }
 
 enum _PdfPageLoadingStatus {
